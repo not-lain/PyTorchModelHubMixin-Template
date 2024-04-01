@@ -14,7 +14,6 @@ setup(
     url="https://github.com/not-lain/PyTorchModelHubMixin-template",
     Issues="https://github.com/not-lain/PyTorchModelHubMixin-template/issues",
     authors=[{"name": "hafedh hichri", "email": "hhichri60@gmail.com"}],
-    author_email="hhichri60@gmail.com",
     license="Apache 2.0 License",
     package_dir={"": "src"},
     packages=find_packages("src"),

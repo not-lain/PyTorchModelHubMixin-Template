@@ -2,7 +2,13 @@ from torch import nn
 from huggingface_hub import PyTorchModelHubMixin
 
 
-class MyModel(nn.Module, PyTorchModelHubMixin):
+class MyModel(nn.Module,
+              PyTorchModelHubMixin,
+              # optional metadata
+              library_name = "PyTorchModelHubMixin-template",
+              repo_url = "https://github.com/not-lain/PyTorchModelHubMixin-template",
+              docs_url="https://huggingface.co/docs/huggingface_hub/en/package_reference/mixins#huggingface_hub.PyTorchModelHubMixin"
+              ):
     """an AI model that inherits from PyTorchModelHubMixin"""
 
     def __init__(self, a=2, b=1):
