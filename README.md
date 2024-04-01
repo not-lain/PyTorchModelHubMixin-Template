@@ -18,7 +18,7 @@ model.save_pretrained(local_path) # save locally
 model.push_to_hub(repo_id) # push to 🤗
 ```
 
-## How to load and initialize
+## How to load and reinitialize
 
 ```python
 from MyModule import MyModel
