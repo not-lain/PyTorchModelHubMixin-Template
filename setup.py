@@ -20,6 +20,7 @@ setup(
     packages=find_packages("src"),
     include_package_data=True,
     classifiers=["Topic :: Utilities", "Programming Language :: Python :: 3.9"],
-    # install_requires=["setuptools", "wheel", "torch","huggingface_hub=>"],
+    use_scm_version=True,
+    setup_requires=['setuptools_scm'],
     install_requires=required,
 )
