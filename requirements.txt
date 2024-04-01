@@ -1,0 +1,4 @@
+setuptools>=42
+wheel
+torch
+huggingface_hub>=0.22
