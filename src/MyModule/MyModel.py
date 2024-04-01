@@ -7,7 +7,8 @@ class MyModel(nn.Module,
               # optional metadata
               library_name = "PyTorchModelHubMixin-template",
               repo_url = "https://github.com/not-lain/PyTorchModelHubMixin-template",
-              docs_url="https://huggingface.co/docs/huggingface_hub/en/package_reference/mixins#huggingface_hub.PyTorchModelHubMixin"
+              docs_url="https://huggingface.co/docs/huggingface_hub/en/package_reference/mixins#huggingface_hub.PyTorchModelHubMixin",
+              #  tags=["image-classification"],
               ):
     """an AI model that inherits from PyTorchModelHubMixin"""
 
