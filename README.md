@@ -24,3 +24,6 @@ model.push_to_hub(repo_id) # push to 🤗
 from MyModule import MyModel
 model = MyModel.from_pretrained(path_or_repo_id) # initialize the model and inject the weights
 ```
+
+## TIP 
+after bilding your own library (this repo is considered a library) you can open a pull request [on this file](https://github.com/huggingface/huggingface.js/blob/main/packages/tasks/src/model-libraries.ts) to make your library semi-official on huggingface
